@@ -2,8 +2,8 @@
 var input = document.querySelector("#input-txt");
 var btnClick = document.querySelector("#btn");
 var otpt = document.querySelector(".output");
-// var server = "https://api.funtranslations.com/translate/binary.json";
-var server = "https://api.funtranslations.com/translate/binary-to-text.json";
+var server = "https://api.funtranslations.com/translate/binary.json";
+// var server = "https://api.funtranslations.com/translate/binary-to-text.json";
 
 
 function getTranslateURL(txt) {

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 body {
     background-color: #D1D5DB;
     /* margin: 1rem 1rem; */
-    font-family: 'Nova Round', cursive;
-    margin: 0px;
+    font-family: 'Crete Round', serif;
+    margin: 0px 0px;
     color: white;
 }
 
@@ -32,6 +32,9 @@ body {
 
 .container p {
     margin-top: 0px;
+    display: inline;
+    padding: 0.2rem;
+    background-color: black;
 }
 
 .container-center {
@@ -59,7 +62,6 @@ body {
     width: 30%;
     height: 5vh;
     border-radius: 20%;
-    /* margin: auto; */
     margin-bottom: 0rem;
     font-weight: bold;
 }
