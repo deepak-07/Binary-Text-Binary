@@ -58,10 +58,10 @@ body {
 
 /* button */
 
-#btn {
+.button {
     width: 30%;
     height: 5vh;
-    border-radius: 20%;
+    border-radius: 10%;
     margin-bottom: 0rem;
     font-weight: bold;
 }
