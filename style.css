@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 body {
-    background-color: #ffe316;
+    background-color: #D1D5DB;
     /* margin: 1rem 1rem; */
     font-family: 'Nova Round', cursive;
     margin: 0px;
+    color: white;
 }
 
 :root {
-    --primary-color: rgba(59, 130, 246);
+    --primary-color: black;
 }
 
 .header {
@@ -16,8 +17,9 @@ body {
 }
 
 .contain-body {
-    /* background-image: url(/image/minion-img.jpg); */
-    background-size: cover;
+    background-image: url(/images/binary-img.png);
+    background-position: 3rem 3rem;
+    background-repeat: repeat;
 }
 
 .container {
