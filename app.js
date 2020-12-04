@@ -4,7 +4,7 @@ var btnClick = document.querySelector("#btn");
 var btnClickTwo = document.querySelector("#btn-two");
 var otpt = document.querySelector(".output");
 var server = "https://api.funtranslations.com/translate/binary.json"
-    var server-two = "https://api.funtranslations.com/translate/binary-to-text.json";
+    var servertwo = "https://api.funtranslations.com/translate/binary-to-text.json"
 
 
 function getTranslateURL(txt) {
@@ -12,7 +12,7 @@ function getTranslateURL(txt) {
 }
 
 function getTranslateURLtwo(txt) {
-    return server-two + "?" + "text=" + txt;
+    return servertwo + "?" + "text=" + txt;
 }
 
 function errorHandler(error) {
