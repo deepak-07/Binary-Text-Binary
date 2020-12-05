@@ -55,10 +55,9 @@ body {
     border: 2px solid black;
 }
 
-
 /* button */
 
-.button {
+#btn {
     width: 30%;
     height: 5vh;
     border-radius: 10%;
