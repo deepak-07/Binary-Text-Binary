@@ -6,3 +6,7 @@ Technologies used:
 HTML
 CSS
 Javascript
+
+#See it online
+
+(https://binary-translator.netlify.app/)
