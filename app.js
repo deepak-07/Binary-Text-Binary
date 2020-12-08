@@ -1,16 +1,15 @@
 // alert("Connected");
 var input = document.querySelector("#input-txt");
 var btnClick = document.querySelector("#btn");
-
 var otpt = document.querySelector(".output");
 var server = "https://api.funtranslations.com/translate/binary.json"
+
 
 
 
 function getTranslateURL(txt) {
     return server + "?" + "text=" + txt;
 }
-
 
 
 function errorHandler(error) {
@@ -29,5 +28,6 @@ function clickHandler() {
         })
         .catch(errorHandler)
 };
+
 
 btnClick.addEventListener("click", clickHandler);
